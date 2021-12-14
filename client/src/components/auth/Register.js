@@ -110,7 +110,7 @@ const Register = (props) => {
           GET STARTED
         </Button>
         <div className="row w-100 mb-0 justify-content-center align-items-center">
-          <span className="badge badge-pill badge-cust px-4 py-3 mt-5 font-weight-bold ">
+          <span className="badge badge-pill badge-cust px-5 py-4 mt-5 font-weight-bold ">
               ALREADY HAVE AN ACCOUNT?{' '}
               <Link to={redirect === '/' ? 'login' : 'login?redirect=' + redirect} className="span-link">SignIn</Link>
           </span>

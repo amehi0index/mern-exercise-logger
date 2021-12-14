@@ -71,8 +71,8 @@ const AddExerciseForm = ({ closeForm }) => {
                 <div className="form-group col-xs-3 px-5">
                     <div className= "d-flex flex-column">
                         <label htmlFor="date">Date: </label>
-                        <div className="date form-control">
-                        <DatePicker selected={date} onChange={date => setDate(date)} />
+                        <div className="form-control date">
+                            <DatePicker selected={date} onChange={date => setDate(date)} />
                         </div>
                     </div>
                 </div>

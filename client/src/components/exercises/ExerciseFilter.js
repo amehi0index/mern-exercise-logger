@@ -6,7 +6,6 @@ const ExerciseFilter = () => {
 
     const exerciseContext = useContext(ExerciseContext)
     const { filtered,  filterExercises, clearFilter, } = exerciseContext
-
     const text = useRef('')
 
     useEffect(() => {
@@ -25,7 +24,7 @@ const ExerciseFilter = () => {
 
     return (
         <div className="form-group">   
-            <input ref={text} type="text" placeholder="Filter Exercises by Activity, Date or Duration"  className="form-control px-4 pt-2 " onChange={onChange} />
+            <input ref={text} type="text" placeholder="Filter Exercises by Activity, Date or Duration"  className="form-control filter" onChange={onChange} />
         </div>   
     )
 }

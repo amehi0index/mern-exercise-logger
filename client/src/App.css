@@ -5,12 +5,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-image: url("img/cycling.jpg");
+  background-image: url('img/cycling.jpg');
   background-size: cover;
   height: 100vh;
- }
+}
 
-.container{
+.container {
   max-width: 1100px;
   background-color: transparent;
   display: flex;
@@ -18,41 +18,42 @@ body {
   justify-content: center;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
-} 
+}
 
-h3{
+h3 {
   color: white;
   margin-bottom: 0;
-  padding:10px;
+  padding: 10px;
 }
 
 /* NAV */
-.fa-bicycle{
+.fa-bicycle {
   font-size: 36px;
   color: purple;
 }
 
-.navbar-nav > .nav-item{
+.navbar-nav > .nav-item {
   margin-right: 100px;
 }
 
-.navbar-brand{
+.navbar-brand {
   margin-left: 100px;
 }
-.color-nav{
+
+.color-nav {
   background-color: rgba(44, 48, 48, 0.7);
 }
 
-.user-name{
+.user-name {
   color: purple;
 }
 
-.navbar-text> .fa-user{
+.navbar-text > .fa-user {
   color: purple;
 }
 
 /* GREETING */
-.greeting > h1{
+.greeting > h1 {
   font-family: 'Lobster', cursive;
   font-size: 64px;
   color: white;
@@ -60,7 +61,7 @@ h3{
 
 /* FORMS */
 .form-container {
-  background-color :transparent;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,42 +70,43 @@ h3{
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   padding-top: 100px;
-} 
+}
 
-.form-title > span{
+.form-title > span {
   color: purple;
   font-weight: bold;
 }
 
-.modal-form{
+.modal-form {
   position: fixed;
   top: 27%;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.form-group{
+.form-group {
   padding-bottom: 10px;
-  width:450px;
+  width: 450px;
 }
 
-.form-group > span{
+.form-group > span {
   float: right;
   margin-right: 30px;
   margin-top: -35px;
   position: relative;
   z-index: 2;
-  color:white;
+  color: white;
 }
+
 .form-control {
   border: none;
   outline: none;
-  padding: 12px 20px;
+  padding: 25px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.2);
   height: 55px;
@@ -114,26 +116,24 @@ form{
 
 .form-control:focus {
   border-color: #ff80ff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0px 0px 8px rgba(255, 100, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   font-size: 18px;
 }
 
-.date{
-  border-radius: 25px;
-  display: block;
-  font-size: 16px;
-  padding: 0 px;
-  width: 80%;
-  margin-left:6%;
+.form-control.date {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
 }
 
-.badge-cust{
+.badge-cust {
   background-color: rgba(44, 48, 48, 0.75);
 }
 
-.span-link{
+.span-link {
   font-family: 'Lobster', cursive;
   font-weight: bold;
   font-size: 24px;
@@ -142,52 +142,56 @@ form{
   text-decoration: none;
 }
 
-.span-link:hover{
+.span-link:hover {
   text-decoration: none;
-  color:#D3D3D3;
+  color: #d3d3d3;
 }
 
 /* TABLE */
 .table-container {
-  width:60vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: white;
   font-family: 'Roboto', sans-serif;
   margin: auto;
   padding-top: 100px;
-} 
+}
 
-.table{
+.table {
   width: 900px;
   margin: auto;
 }
 
-thead{
-  background-color: black;
+thead {
 }
 
-.header1-bg{
-  color: white;
-  display:flex;
+.header1-bg {
+  background: #000000;
+  color: #ffffff;
+}
+
+.header1-bg div {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
-.header2-bg{
+.header2-bg {
   background-color: #353a40;
-  color: white;
+  color: #ffffff;
 }
 
-.tbl-start{
-  display:flex;
+.tbl-start {
+  display: flex;
   justify-items: flex-start;
   margin-left: 60px;
 }
 
 /* BUTTONS */
-.btn{
+.btn {
   border: 2px solid purple;
   border-radius: 25px;
   background-color: purple;
@@ -199,32 +203,37 @@ thead{
   transition: all 0.3s ease-out;
 }
 
-.btn:active:focus, .btn:focus, 
+.btn:active:focus,
+.btn:focus,
 .btn:hover {
   background-color: #380f38 !important;
-  border:none !important;
-  outline:none !important;
-  color:white;
+  border: none !important;
+  outline: none !important;
+  color: white;
 }
 
-btn:focus, .edit-btn:focus,
-.delete-btn:focus, .btn-log:focus{
+btn:focus,
+.edit-btn:focus,
+.delete-btn:focus,
+.btn-log:focus {
   outline: 0;
   border: none;
 }
 
-.edit-btn, .delete-btn, .btn-log{
+.edit-btn,
+.delete-btn,
+.btn-log {
   border: 0;
 }
 
-.btn-link{
+.btn-link {
   text-decoration: none;
-  color:#D3D3D3;
+  color: #d3d3d3;
 }
 
-.btn-link:hover{
+.btn-link:hover {
   text-decoration: none;
-  color:#D3D3D3;
+  color: #d3d3d3;
 }
 
 .add-btn {
@@ -232,24 +241,27 @@ btn:focus, .edit-btn:focus,
   height: 50px;
 }
 
-.btn-log{
+.btn-log {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
+  padding: 0 15px;
   height: 35px;
   letter-spacing: 1px;
 }
 
-.fa-edit, .fa-trash{
+.fa-edit,
+.fa-trash {
   font-size: 18px;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
-.fa-edit:hover, .fa-trash:hover{
-  color:  purple;
+.fa-edit:hover,
+.fa-trash:hover {
+  color: purple;
 }
 
 /* MODAL */
-.modal-overlay{
+.modal-overlay {
   background-color: rgba(255, 100, 255, 0.1);
 }
 
@@ -263,24 +275,22 @@ btn:focus, .edit-btn:focus,
 
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
-} 
+}
 
-.modal-form{
+.modal-form {
   background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 1px 1px rgba(20, 12, 12, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5);
   border-radius: 8px;
 }
 
 .react-datepicker-wrapper,
 .react-datepicker__input-container,
-.react-datepicker__input-container input{
- background-color: transparent;
- outline: none;
- border: none;
- color: white;
- font-size: 18px;
+.react-datepicker__input-container input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
 }
-
 
 /*SCROLL BAR*/
 
@@ -291,10 +301,10 @@ btn:focus, .edit-btn:focus,
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:black; 
+  background: black;
   border-bottom-color: white;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #681e68;

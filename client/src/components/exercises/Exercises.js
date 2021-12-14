@@ -36,8 +36,8 @@ const { show, handleShow, handleClose } = useModal()
             <table className="table table-hover table-dark table-striped">
                   <thead className="">
                     <tr>
-                      <th colSpan="5" className="pt-4 ">
-                        <div className="header1-bg">
+                      <th colSpan="5" className="header1-bg pt-4 ">
+                        <div>
                           <h4>Logged Exercises</h4> 
                           <button className="btn btn-log" onClick={handleShow}>Add New Exercise</button>
                         </div>

@@ -25,14 +25,14 @@ const Home = () => {
     }, [])
 
     return (
-            <div>
-                {isAuthenticated ?  (
-                    exercises !== null && !exercises.length
-                        ? (<AddExercise show={handleShow} />)
-                        : (<Exercises />) 
-                    ) : <Register /> 
+        <div>
+            {isAuthenticated ?  (
+                exercises !== null && !exercises.length
+                    ? (<AddExercise show={handleShow} />)
+                    : (<Exercises />) 
+                ) : <Register /> 
                 }
-            </div>
+        </div>
     
     )
 }
