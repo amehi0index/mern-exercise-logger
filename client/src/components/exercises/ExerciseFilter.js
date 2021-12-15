@@ -1,6 +1,5 @@
 import React, { useContext, useRef, useEffect } from 'react'
 import ExerciseContext from '../../context/exercise/exerciseContext'
-import { Modal, Button, FormControl, Form } from "react-bootstrap"
 
 const ExerciseFilter = () => {
 
@@ -12,7 +11,7 @@ const ExerciseFilter = () => {
         if(filtered === null){
             text.current.value =''
         }
-    },[])
+    },[filtered])
 
     const onChange = (e) => {
         if (text.current.value !== ''){

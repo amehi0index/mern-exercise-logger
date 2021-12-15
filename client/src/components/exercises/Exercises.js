@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext, useEffect } from 'react'
 import ExerciseContext from '../../context/exercise/exerciseContext'
 import AuthContext from '../../context/auth/authContext'
 import ExerciseItem  from './ExerciseItem'

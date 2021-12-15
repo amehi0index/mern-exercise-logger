@@ -61,5 +61,3 @@ The Exercise Logger Application allows a user to track their exercise workouts. 
 This project is licensed under the [MIT License](#LICENSE.txt)
 
 Copyright (c) 2021 [Amelia Hill](#https://ameliahill.com)
-
-[Back To Top](#exercise-log)

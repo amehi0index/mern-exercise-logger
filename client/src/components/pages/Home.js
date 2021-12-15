@@ -1,8 +1,6 @@
 
 import React, { useContext, useEffect } from 'react'
 import Exercises from '../exercises/Exercises'
-import { Container } from "react-bootstrap"
-import cycling from '../../img/cycling.jpg'
 import AuthContext from '../../context/auth/authContext'
 import Register from '../auth/Register'
 import ExerciseContext from '../../context/exercise/exerciseContext'

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { Nav, Navbar, NavItem } from "react-bootstrap"
+import { Nav, Navbar } from "react-bootstrap"
 import AuthContext from '../../context/auth/authContext'
 import ExerciseContext from '../../context/exercise/exerciseContext'
 
@@ -11,7 +11,7 @@ const MyNavbar = () => {
     const exerciseContext = useContext(ExerciseContext)
 
     const { isAuthenticated, logout, user } = authContext
-    const { exercises, clearExercises } = exerciseContext
+    const { clearExercises } = exerciseContext
 
     const onLogout = () => {
         logout()

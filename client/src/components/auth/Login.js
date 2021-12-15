@@ -1,7 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { FaTrash, FaEdit } from "react-icons/fa"; 
-import { Form, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import AuthContext from '../../context/auth/authContext'
 
 

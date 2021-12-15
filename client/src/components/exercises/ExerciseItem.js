@@ -1,11 +1,8 @@
-import React, { useState, useContext } from 'react'
-import { FaTrash, FaEdit } from "react-icons/fa" 
+import React, { useContext } from 'react'
 import Moment from 'react-moment'
-import { Link } from 'react-router-dom'
 import ExerciseContext from '../../context/exercise/exerciseContext'
 import EditExercise from './EditExercise'
 import useModal from './useModal'
-
 
 const ExerciseItem = ({ exercise }) => {
     

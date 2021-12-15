@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react'
-import { Modal, Button, Form } from "react-bootstrap"
+import { Modal } from "react-bootstrap"
 import ExerciseContext from '../../context/exercise/exerciseContext'
-import AuthContext from '../../context/auth/authContext'
 import useModal from './useModal'
 import DatePicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css"
