@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://ameHi:savorlyfe@cluster0-miijd.mongodb.net/exercise-log?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}

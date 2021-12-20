@@ -35,7 +35,7 @@ const AddExerciseForm = ({ closeForm }) => {
     return (
     
           <div className= "modal-form-container">
-            <form onSubmit={onSubmit} className="modal-form p-4">
+            <form onSubmit={onSubmit} className="modal-form p-2">
             <h1 className="form-title text-center p-3">Create <span className="form-title-color">New Entry</span></h1>
                 <div className="form-group col-xs-3 px-5">
                     <div className= "d-flex flex-column">

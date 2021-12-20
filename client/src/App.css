@@ -79,7 +79,7 @@ h3 {
 
 .modal-form {
   position: fixed;
-  top: 27%;
+  top: 18%;
 }
 
 form {
@@ -156,7 +156,7 @@ form {
   color: white;
   font-family: 'Roboto', sans-serif;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .table {
@@ -266,13 +266,11 @@ btn:focus,
 }
 
 .modal-form-container {
-  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
