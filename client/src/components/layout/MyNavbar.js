@@ -20,7 +20,9 @@ const MyNavbar = () => {
 
     const authLinks = (
         <>
-            <Navbar.Text className="pr-4"><i className="fa fa-user pr-2"/>{ user && user.name }</Navbar.Text>{' '}
+            <Navbar.Text className="pr-4">
+                <i className="fa fa-user pr-2"/>{ user && user.name }
+            </Navbar.Text>{' '}
             <Navbar.Text>
                 <a className="pr-l" onClick={onLogout} href='#!'>
                     <i className="fas fa-sign-out-alt" />{' '}

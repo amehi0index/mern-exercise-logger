@@ -51,8 +51,7 @@ const Register = (props) => {
         <h1 className="text-center">Stay Committed To Your Fitness Goals</h1>
       </div>
 
-
-      <form className= "mt-5 auth-form" onSubmit={onSubmit}>
+      <form className= "mt-3 auth-form" onSubmit={onSubmit}>
       <h1 className="mb-3 form-title">Account <span>Register</span></h1>
         <div className="form-group">           
           <input 
@@ -110,7 +109,7 @@ const Register = (props) => {
           GET STARTED
         </Button>
         <div className="row w-100 mb-0 justify-content-center align-items-center">
-          <span className="badge badge-pill badge-cust px-5 py-4 mt-5 font-weight-bold ">
+          <span className="badge badge-pill badge-cust px-5 py-3 mt-3 font-weight-bold ">
               ALREADY HAVE AN ACCOUNT?{' '}
               <Link to={redirect === '/' ? 'login' : 'login?redirect=' + redirect} className="span-link">SignIn</Link>
           </span>

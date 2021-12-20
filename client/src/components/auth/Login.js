@@ -48,7 +48,7 @@ const Login = (props) => {
                 <h1 >You're Back. Awesome.</h1>
             </div>
             
-            <form className= "mt-5 auth-form" onSubmit={onSubmit}>
+            <form className= "mt-3 auth-form" onSubmit={onSubmit}>
                 <h1 className="mb-3 form-title">Account <span>Login</span></h1>
                 <div className="form-group">
                     <input 
@@ -81,7 +81,7 @@ const Login = (props) => {
                 </Button>
 
                 <div className="row w-100 mb-0 justify-content-center align-items-center">
-                    <span className="badge badge-pill badge-cust px-4 py-3 mt-5 font-weight-bold">
+                    <span className="badge badge-pill badge-cust px-4 py-3 mt-3 font-weight-bold">
                         DON'T HAVE AN ACCOUNT?{' '}
                         <Link to='/' className="span-link">SignUp</Link>
                     </span>
