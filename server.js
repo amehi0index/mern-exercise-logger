@@ -10,11 +10,6 @@ connectDB()
 //Initialize middleware
 app.use(express.json({ extended: false }))     
 
-//ROUTE FOR HOME
-app.get('/', (req, res) =>{ 
-    res.send("We are on home!"); 
-});
-
 //Routes
 app.use('/api/users', require('./routes/users'))
 app.use('/api/exercises', require('./routes/exercises'))
