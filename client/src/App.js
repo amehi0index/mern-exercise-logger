@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/MyNavbar';
@@ -15,6 +15,14 @@ if(localStorage.token){
 }
 
 const App = () => {
+
+  const loaderContainer = document.querySelector('.loader-container')
+
+  useEffect(() => {
+    if (loaderContainer){
+      loaderContainer.classList.add('finish')
+    }
+  },[loaderContainer])
 
   return (
     <AuthState>
