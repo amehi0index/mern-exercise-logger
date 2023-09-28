@@ -1,6 +1,9 @@
 {
   "name": "mern-exercise-logger",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "description": "Backend for Exercise Tracker",
   "main": "server.js",
   "scripts": {

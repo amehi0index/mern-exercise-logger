@@ -17,6 +17,7 @@ import {
     } from '../types';
 
 const ExerciseState = (props) => {
+    
     const initialState = {
         exercises: null,
         current: null,
