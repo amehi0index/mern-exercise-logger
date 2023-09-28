@@ -2,7 +2,7 @@
 
 ![Project Image](log.png)
 
-> Exercise Logger Application built with the MERN Stack. Implements authentification with JSON Web Token and Bcrypt.
+> Exercise Logger Application built with the MERN Stack. Implements authentication with JSON Web Token and Bcrypt.
 
 ---
 
